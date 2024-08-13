@@ -5,7 +5,7 @@ const Exercise01 = () => {
   return (
     <div>
       <h1>Exercise 01</h1>
-      <p>Content for Exercise 01</p>
+      <button onClick={() => alert("Você clicou em mim!")}>Clique aqui</button>
     </div>
   );
 };

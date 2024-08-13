@@ -4,8 +4,8 @@ import React from "react";
 const Exercise08 = () => {
   return (
     <div>
-      <h1>Exercise08</h1>
-      <p>Content for Exercise08</p>
+      <h1>Exercise 08</h1>
+      <button onClick={(event) => console.log(event)}>Synthetic events</button>
     </div>
   );
 };

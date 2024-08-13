@@ -1,10 +1,12 @@
 import React from "react";
+import Placar from "../components/Placar.jsx";
 
 const Exercise04 = () => {
   return (
-    <div>
-      <h1>Exercise04</h1>
-      <p>Content for Exercise04</p>
+      <div>
+        <h1>Exercise 04</h1>
+        <Placar time={"Flamengo"} />
+        <Placar time={"Vasco"} />
     </div>
   );
 };
